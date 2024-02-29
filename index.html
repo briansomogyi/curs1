@@ -91,12 +91,17 @@
                 eum voluptate sit exercitationem ratione asperiores dignissimos sint a enim perspiciatis. Delectus
                 impedit esse, aperiam animi commodi doloribus.</p>
         </div>
+        <canvas id="draw1">Text</canvas>
     </main>
     <footer>
         Copyright &copy; 2024
     </footer>
     <script>
         console.log("Salut din consola.")
+        const canvas = document.getElementById("draw1")
+        const ctx = canvas.getContext("2d")
+        ctx.fillStyle = "green"
+        ctx.fillRect(10, 10, 150, 100)
     </script>
     <!-- Adaugare fisiere externe de tip JS -->
     <script src="script.js"></script>
