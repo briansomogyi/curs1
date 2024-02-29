@@ -45,7 +45,8 @@
             facilis quia, sunt culpa harum eum sequi.<br>
         </p>
         <hr>
-        <button>Apasă-mă</button>
+        <button onclick="console.log('Butonul a fost apasat.')">Apasă-mă</button>
+        <button onclick="count()">Apelează funcția</button>
         <hr>
         <form>
             <input type="button" value="Butonul de intrare">
@@ -94,8 +95,13 @@
     <footer>
         Copyright &copy; 2024
     </footer>
+    <script>
+        console.log("Salut din consola.")
+    </script>
     <!-- Adaugare fisiere externe de tip JS -->
     <script src="script.js"></script>
+    <!-- Adaugare fisiere externe de tip JS prin module type -->
+    <script type="module" src="script-module-way.js"></script>
 </body>
 
 </html>
